@@ -1,0 +1,98 @@
+body{
+  font-size: 2vw;
+  background: #16181c;
+}
+
+.page{
+  display: flex;
+  flex-direction: column;
+  width:60%;
+  height: minmax(900px,auto);
+  margin: auto;
+  border-radius: 5px;
+  padding:2rem 5rem;
+  background: white;
+  font-family: Arial;
+  font-size: 18px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+.info_image{
+  display: grid;
+  grid-template-columns: auto 169px;
+  align-content: center;
+  border-bottom: 1px solid gray;
+  
+
+}
+
+.link{
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.list{
+  font-size: 15px;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.link:hover{
+  text-decoration: underline;
+}
+
+h1{
+  margin-bottom: 0;
+}
+
+.proffession{
+  font-weight: bold;
+}
+
+.section{
+  display: grid;
+  align-content: center;
+  height:auto;
+
+  grid-template-columns: 60% 40%;
+  border-bottom: 1px solid gray;
+}
+.workInfo{
+  padding: 1rem;
+}
+.right{
+
+}
+.left{
+  float: left;
+}
+
+.type{
+}
+
+.jobpos{
+  font-size: 14px;
+}
+
+.institution{
+font-size: 18px;
+color: 	#5380ac;
+
+}
+.time{
+  font-size: 11px;
+}
+
+@media only screen and (max-width: 766px){
+  .info_image{
+    float: left;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section{
+
+    display: flex;
+    flex-direction: column;
+
+  }
+}
