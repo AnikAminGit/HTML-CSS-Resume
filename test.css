@@ -5,7 +5,7 @@ body{
   background-attachment: fixed;
   background-size: contain;
   background-position: center;
-    
+
 
 }
 
@@ -29,7 +29,7 @@ body{
 .info_image{
 
   display: grid;
-  
+
   grid-template-columns: auto 220px;
   align-content: center;
   border-bottom: 2px solid #56c6c6;
@@ -99,7 +99,7 @@ h1{
 .left{
 
   float: left;
-justify-content: center;    
+justify-content: center;
 }
 
 .type{
@@ -140,30 +140,13 @@ color: 	#5380ac;
     flex-direction: column;
 
   }
-    
+
     @media only screen and (max-width: 766px){
 
-  .info_image{
-    float: left;
-    display: flex;
-    flex-direction: column;
-
-  }
-
-  .section{
-
-    display: flex;
-    flex-direction: column;
-
-  }
-        
         .img {
     width: 200px;
     border-radius: 10%;
     box-shadow: 0 1px 7px rgba(0,0,0,0.8);
 }
-        
+
 }
-
-
-
